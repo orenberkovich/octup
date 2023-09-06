@@ -31,6 +31,7 @@ const HeroBox = (props: DataProps) => {
 
   useEffect(() => {
     iterate(props);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const addToCompare = () => {
